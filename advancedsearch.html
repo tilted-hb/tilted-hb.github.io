@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расширенный поиск</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header class="header">
+        <div class="head-bar">
+            <div id="img">
+                <img src="images/google.png" alt="google" width="200px" height="70px">
+            </div>
+            <div class="link">
+                <a href="imagessearch.html">Поиск картинок</a>
+                <a href="index.html">Поиск в Google</a>
+            </div>
+        </div>
+        <h1>Расширенный поиск</h1>
+        <hr>
+    </header>
+    <main>
+        <h2>Найти страницы</h2>
+        <div class="container">
+            <form action="https://google.com/search" method="get">
+                <div class="row">
+                    со словами:
+                    <input class="field" type="text" name="as_q">
+                </div>
+                <div class="row">
+                    со словосочетанием:
+                    <input class="field" type="text" name="as_esq">
+                </div>
+                <div class="row">
+                    с любым из этих слов:
+                    <input class="field" type="text" name="as_oq">
+                </div>
+                <div class="row">
+                    без слов:
+                    <input class="field" type="text" name="as_eq">
+                </div>
+                <div class="submit">
+                    <input class="button" type="submit" value="Поиск">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
